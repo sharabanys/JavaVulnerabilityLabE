@@ -10,7 +10,7 @@ resource "aws_lambda_permission" "apigw" {
 }
 
 resource "aws_lambda_function" "example" {
-   function_name = "ServerlessPerson"
+   function_name = "ServerlessPerson" 
 
    handler = "MyHandler::handleRequest"
    runtime = "java11"
