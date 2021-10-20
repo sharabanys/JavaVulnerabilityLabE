@@ -12,5 +12,5 @@ resource "aws_db_instance" "default" {
   
   #backup_window           = "09:01-11:00"
   #backup_retention_period = 7
-  
+   
 }
